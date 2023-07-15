@@ -4,11 +4,13 @@ if (isset($_GET['search']))
 {
 
     $search = $_GET['search'];
-    $data = get_fcontent('https://api-manager.universia.net/empleo/offers/v2/boards/82a63648-7e60-46f9-9aed-8c1985ef4c0b/job_postings/public/?jobOrCompany=' . $search . '&page=1&limit=10');
+    
+    
+    $data = file_get_contents('https://api-manager.universia.net/empleo/offers/v2/boards/82a63648-7e60-46f9-9aed-8c1985ef4c0b/job_postings/public/?jobOrCompany=' . $search . '&page=1&limit=10');
 
     echo '<pre>';
 
-    $json = json_decode($data[0], true);
+    $json = json_decode($data, true);
 
     print_r($json);
     echo '</pre>';
