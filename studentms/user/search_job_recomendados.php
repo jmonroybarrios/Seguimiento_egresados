@@ -145,14 +145,7 @@ foreach($results as $row)
               <div class="col-md-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <form method="get">
-                                <div class="form-group">
-                                   <strong>Empleos:</strong>
-                                   
-                                    <input id="searchdata" type="text" name="searchdata" required="true" class="form-control" placeholder="Puesto o empresa"></div>
-                               
-                                <button type="submit" class="btn btn-primary" name="search" id="submit">Buscar</button>
-                            </form>
+                    
                     <div class="d-sm-flex align-items-center mb-4">
 
 
@@ -162,7 +155,7 @@ if (!empty($resultado))
 
 
   ?>
-  <h4 align="center">Result against "<?php echo $search;?>" keyword </h4>
+  
                     </div>
                     <div class="table-responsive border rounded p-1">
                       
