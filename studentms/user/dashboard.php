@@ -47,9 +47,8 @@ if (strlen($_SESSION['sturecmsstuid']==0)) {
                   <span class="card-body d-lg-flex align-items-center">
                     <p class="mb-lg-0">¡Avisos de la universidad por favor revise! </p>
                     <a href="view-notice.php" target="_blank" class="btn btn-warning purchase-button btn-sm my-1 my-sm-0 ml-auto">Ver aviso</a>
-                  
-                  </span>
-                </div>
+                 </span>
+                  </div>
               </div>
             </div>
           </div>

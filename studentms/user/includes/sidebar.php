@@ -42,5 +42,27 @@ foreach($results as $row)
                 <i class="icon-book-open menu-icon"></i>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#ui-basic1" aria-expanded="false" aria-controls="ui-basic1">
+                <span class="menu-title">Egresado</span>
+                <i class="icon-people menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic1">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="add-students_users.php">Agregar Egresado</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+              <a class="nav-link" href="search_job.php">
+                <span class="menu-title">Buscar</span>
+                <i class="icon-magnifier menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search_job_recomendados.php">
+                <span class="menu-title">Recomendados</span>
+                <i class="icon-magnifier menu-icon"></i>
+              </a>
+            </li>
           </ul>
         </nav>

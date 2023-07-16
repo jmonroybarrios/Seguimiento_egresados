@@ -83,5 +83,3 @@ function get_fcontent($url, $method = 'GET', $data = null, $headers = null, $jav
 <input type="text" name="search" />
 <input type="submit" name="envio" value="Buscar" />
 </form>
-
-
